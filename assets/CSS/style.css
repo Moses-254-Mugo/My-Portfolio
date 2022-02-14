@@ -5,11 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
-    /* margin-top: -1.2em; */
-    /* background: #000; */
 
-}
 html{
     scroll-behavior: smooth;
 }
@@ -153,6 +149,89 @@ html{
     background: none;
 }
 
+
+/* About styling section */
+.about, .service, .skills, .project, .contact, footer{
+    font-family: 'Times New Roman', Times, serif;
+}
+.about .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom:60px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height:3px;
+    background: #000;
+    transform: translateX(-50%);
+}
+.about .title::after{
+    content: "who I am";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    padding: 5px;
+    color: crimson;
+    background: #fff;
+    transform: translateX(-50%);
+}
+.about .about-content,
+.service .serv-content,
+.skills .skills-content,
+.contact, .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+    width: 55% ;
+}
+.about .about-content .right .text{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: crimson;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background-color: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    background: none;
+}
 
 
 
