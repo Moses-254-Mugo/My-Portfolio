@@ -3,6 +3,8 @@ This is a simple lading page of my portfolio helping document education,work sam
 
 ## Author
 Moses Kinyua
+## Screenshot
+![Getting Started](assets/IMAGES/Screenshots/landing-page-demo.png)
 
 ## Technologies Used
 * HTML
