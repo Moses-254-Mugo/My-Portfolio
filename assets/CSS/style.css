@@ -42,7 +42,7 @@ html{
     color: #fff;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: #fcfc;;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -60,7 +60,7 @@ html{
     transition: color 0.3s ease;
 } 
 .navbar .menu li a:hover{
-    color: crimson;
+    color: #fcfc;;
     font-size: 22px;
     transition: all 0.3s ease;
     font-weight: 700;
@@ -80,7 +80,7 @@ html{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #fcfc;
     right:30px;
     bottom: 10px;
     text-align: center;
@@ -98,6 +98,9 @@ html{
     bottom: 30px;
     opacity: 1;
     pointer-events: auto;
+}
+#home, #about, #project, #skill, #contact{
+    padding: 40px 0;
 }
 
 /* Home styling section */
@@ -129,29 +132,29 @@ html{
     
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: #fcfc;
     font-weight: 500;
     
 }
 .home .home-content a{
     display: inline-block;
-    background-color: crimson;
+    background-color: #fcfc;;
     color: #fff;
     font-size: 20px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #fff;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
     color: #fff;
-    background: none;
+    background: crimson;;
 }
 
 
 /* About styling section */
-.about, .service, .skills, .project, .contact, footer{
+.about, .skills, .project, .contact, footer{
     font-family: 'Times New Roman', Times, serif;
 }
 .about .title{
@@ -578,7 +581,7 @@ html{
 /* footer section stying */
 footer{
     background: #fff;
-    padding: 20px 23px;
+    padding: 23px 23px;
     color: #000;
     text-align: center;
     font-size: 20px;
