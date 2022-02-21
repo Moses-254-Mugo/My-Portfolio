@@ -142,14 +142,16 @@ section{
 }
 .home .home-content a{
     display: inline-block;
-    background-color: #fcfc;;
+    background-color: crimson;
     color: #fff;
     font-size: 20px;
+    font-weight: 600;
     padding: 12px 36px;
     margin-top: 20px;
-    border-radius: 6px;
+    border-radius: 50px 40px 0 50px;
     border: 2px solid #fff;
     transition: all 0.3s ease;
+
 }
 .home .home-content a:hover{
     color: #fff;
