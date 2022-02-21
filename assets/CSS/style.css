@@ -641,10 +641,11 @@ section{
 /* footer section stying */
 footer{
     background: #000;
-    padding: 23px 23px;
+    padding: 30px 23px;
     color: #fff;
     text-align: center;
     font-size: 20px;
+    margin-bottom: -40px;
 }
 footer span a{
     color: crimson;
